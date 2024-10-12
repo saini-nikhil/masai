@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D2-Q8</title>
+    <style>
+
+        *{
+            /* background: linear-gradient(to bottom right, #ff4d4d, #8f94fb); */
+        }
+         h1{
+            text-align: center;
+         }
+         #container{
+            margin: auto;
+            width: 400px;
+            height: 600px;
+            border: 2px solid black;
+            background-color: whitesmoke;
+            
+         }
+         form{
+            margin: 10px;
+         }
+    </style>
+</head>
+<body>
+    <h1>Feedback Form</h1>
+    <div id="container">
+        <form action="xyz">
+            <label for="Ftype">Feedback Type</label>
+            <br>
+            <input type="text" id="Ftype">
+            <br>
+            <!-- <label>Message</label>
+            <textarea
+                    name="address"
+                ></textarea> -->
+             <label>Website rating</label>
+             <input type="radio" name="rating" value="Excellent">Excellent
+             <input type="radio" name="rating" value="good">Good
+             <input type="radio" name="rating" value="Average">Average
+             <input type="radio" name="rating" value="Poor">Poor
+             <label>Age (10-100)</label>
+             <input type="number">
+             <label>Email</label>
+             <input type="email">
+             <label >Password (min. 8 characters):</label>
+             <input type="password">
+             <label >Website URL (optiona):</label>
+             <input type="url">
+             <input type="checkbox">
+             <label for="">I agree to the terms and conditions</label>
+             <button>Submit</button>
+
+
+
+
+
+
+
+
+
+        </form>
+
+    </div>
+
+    
+</body>
+</html>
